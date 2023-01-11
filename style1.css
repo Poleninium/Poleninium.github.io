@@ -1,0 +1,140 @@
+/*Preparation du code*/
+
+@font-face {
+    font-family: "SF";
+    src: url("SF-UI-Display-Regular.woff") format("woff")
+    }
+    
+    body {
+    background-color: #23272A;
+    font-family: "SF";
+    }
+
+/*Me contacter*/
+
+/*1er Bloc*/
+
+main{
+    width: 350px;
+    height: 400px;
+    background-color: #2a2f32;
+    border-radius: 5px;
+    margin: 0.7rem;               
+    padding: 0.5rem ; 
+    position: absolute;
+    left: 2%;
+    top: 25%
+}
+h1{
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(119, 223, 255);
+    font-weight : bold; 
+    font-size: 1.8rem;
+} 
+p{
+    display: block;
+    background-color:#23272A;  
+    border: 1px solid #fff;
+    min-width: 120px; 
+    margin: 0.6rem;               
+    padding: 0.5rem ;
+    border-radius: 5px;      
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(255, 255, 255);
+    font-weight : bold; 
+    font-size: 1.5rem;
+} 
+p1{
+    display: block;
+    background-color:#23272A;  
+    min-width: 140px; 
+    margin: 0.5rem;               
+    padding: 0.5rem 0;
+    border-radius: 5px;       
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(40, 249, 61);
+    font-weight : bold; 
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+    right: 0%;
+    bottom:0%
+} 
+/*Menu*/
+.menu {
+    display: flex;              
+    padding:0;                     
+    position: absolute;
+    top: 0%; 
+    left: 35%;
+}
+.menu li {
+    list-style-type: none ;      
+}
+
+.menu a {
+    display:block;                
+    min-width: 100px;            
+    margin: 0.7rem;               
+    padding: 0.5rem ;            
+    text-align: center;           
+    background-color:#2a2f32;                
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;
+    color: rgb(219, 58, 224); 
+    font-weight : bold; 
+    font-size: 1.5rem;               
+} 
+/*2nd Bloc*/
+main1{
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: #2a2f32;
+    margin: 0.7rem;               
+    padding: 0.5rem ; 
+    position: absolute;
+    left: 31%;
+    top: 15%
+}
+h2{
+    text-align: left;
+    padding-left: 1%;
+    color:rgb(119, 223, 255);
+    font-weight : bold; 
+    font-size: 1.8rem; 
+}
+p2{
+    display: block;
+    width: 450px;
+    height: 400;
+    background-color:#23272A;  
+    min-width: 120px; 
+    margin: 0.6rem;               
+    padding: 0.5rem 0;
+    border: 1px solid #fff;
+    border-radius: 5px;      
+    text-align: left;
+    padding-left: 1%;
+    color:rgb(255, 255, 255);
+    font-weight : bold; 
+    font-size: 1.5rem;
+} 
+img{
+    position: absolute;
+    right: 5%;
+    bottom: 6%;
+}
+/*Footer*/
+.footer-basic {
+    padding: 1%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    font-size: 0.8rem;
+    color: rgb(249, 202, 81);
+}

@@ -1,0 +1,134 @@
+/*Preparation du code*/
+
+@font-face {
+    font-family: "SF";
+    src: url("SF-UI-Display-Regular.woff") format("woff")
+    }
+    
+    body {
+    background-color: #23272A;
+    font-family: "SF";
+    }
+/*header (Menu)*/
+.menu {
+    display: flex;              
+    padding:0;                      
+    position: absolute;
+    left: 35%;
+    top: 0%; 
+}
+.menu li {
+    list-style-type: none ;      
+}
+
+.menu a {
+    display:block;                
+    min-width: 100px;            
+    margin: 0.7rem;               
+    padding: 0.5rem ;            
+    text-align: center;           
+    background-color:#2a2f32;                
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;
+    color: rgb(219, 58, 224); 
+    font-weight : bold; 
+    font-size: 1.5rem;               
+} 
+/*1er Bloc Service Roblox*/
+main{
+    width:500px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #2a2f32;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+h1{
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(119, 223, 255);
+    font-weight : bold; 
+    font-size: 2rem;
+}
+p{
+        display: block;
+        position: absolute;
+        left: 2%;
+        width: 450px;
+        height: 470px;
+        background-color:#23272A;  
+        min-width: 120px; 
+        margin: 0.4rem;               
+        padding: 0.6rem ;
+        border: 1px solid #fff;
+        border-radius: 5px;      
+        text-align: center;
+        padding-left: 1%;
+        color:rgb(255, 255, 255);
+        font-weight : bold; 
+        font-size: 1.5rem;    
+}
+/*2nd bloc Service "..."*/
+main1{
+        width:500px;
+        height: 600px;
+        border-radius: 5px;
+        background-color: #2a2f32;
+        position: absolute;
+        top: 18%;
+        right: 10%;
+}
+p1{
+    display: block;
+    position: absolute;
+    left: 2%;
+    width: 450px;
+    height: 470px;
+    background-color:#23272A;  
+    min-width: 120px; 
+    margin: 0.4rem;               
+    padding: 0.6rem ;
+    border: 1px solid #fff;
+    border-radius: 5px;      
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(255, 255, 255);
+    font-weight : bold; 
+    font-size: 1.5rem;    
+}
+img{
+    position: absolute;
+    bottom: 15%;
+    right:15%;
+    padding: 3px;
+    width: 300px;
+    height: 130px;
+}
+p2{
+    display: block;
+    background-color:#23272A;  
+    min-width: 140px; 
+    margin: 0.5rem;               
+    padding: 0.5rem 0;
+    border-radius: 5px;       
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(40, 249, 61);
+    font-weight : bold; 
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+    right: 0%;
+    bottom:0%
+} 
+/*Footer*/
+.footer-basic {
+    padding: 1%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    font-size: 0.8rem;
+    color: rgb(249, 202, 81);
+}

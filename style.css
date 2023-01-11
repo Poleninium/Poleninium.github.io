@@ -1,0 +1,117 @@
+/*Preparation du code*/
+
+@font-face {
+font-family: "SF";
+src: url("SF-UI-Display-Regular.woff") format("woff")
+}
+
+body {
+background-color: #23272A;
+font-family: "SF";
+}
+
+/*Accueil*/
+/*Bloc 1*/
+main{
+    width: 350px;
+    height: 768px;
+    background-color: #2a2f32;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    top: 0%
+}
+h1{
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(119, 223, 255);
+    font-weight : bold; 
+    font-size: 2rem;
+} 
+p1{
+    display: block;
+    background-color:#23272A;  
+    min-width: 140px; 
+    margin: 0.5rem;               
+    padding: 0.5rem 0;
+    border-radius: 5px;       
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(40, 249, 61);
+    font-weight : bold; 
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+    right: 0%;
+    bottom:0%
+} 
+/*head (Menu)*/
+.menu {
+    display: flex;              
+    padding:0;                      
+    position: absolute;
+    left: 40%;
+    top: 0%; 
+}
+.menu li {
+    list-style-type: none ;      
+}
+
+.menu a {
+    display:block;                
+    min-width: 100px;            
+    margin: 0.7rem;               
+    padding: 0.5rem ;            
+    text-align: center;           
+    background-color:#2a2f32;                
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;
+    color: rgb(219, 58, 224); 
+    font-weight : bold; 
+    font-size: 1.5rem;               
+} 
+/*Bloc 2* de bienvenue*/ 
+main2{
+    position: absolute;
+    bottom: 50%;
+    left: 26%;
+    top: 40%
+}
+p{
+    display: block;
+    background-color:#23272A;  
+    min-width: 120px; 
+    margin: 0.4rem;               
+    padding: 0.6rem ;
+    border: 1px solid #fff;
+    border-radius: 5px;      
+    text-align: center;
+    padding-left: 1%;
+    color:rgb(255, 255, 255);
+    font-weight : bold; 
+    font-size: 1.5rem;
+} 
+/*Footer*/
+.footer-basic {
+    padding: 1%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    font-size: 0.8rem;
+    color: rgb(249, 202, 81);
+}
+
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
